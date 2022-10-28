@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 
-img = cv2.imread('/Users/petro/PycharmProjects/SUU_3/test.png')
+img = cv2.imread('/Users/*/SUU_3/test.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 config = r'--oem 3 --psm 6'
