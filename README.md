@@ -1,12 +1,15 @@
 # SUU
 
-SUU_1
+SUU_1:
 находит лицо и глаза
 
-SUU_2 
+SUU_2:
 объекты которые находит: CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 	                          "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
 	                          "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
 	                          "sofa", "train", "tvmonitor"]
 
 для запуска: python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+SUU_3:
+img = cv2.imread('/Users/*/test.png') путь до файла 
